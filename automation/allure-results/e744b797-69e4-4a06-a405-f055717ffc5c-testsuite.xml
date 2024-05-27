@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1686666006333' stop='1686666016344'>
+    <name>QCharge - Ios: Onboarding - Swipe Action and Üye Olmadan Kesfet Function</name>
+    <title>QCharge - Ios: Onboarding - Swipe Action and Üye Olmadan Kesfet Function</title>
+    <test-cases>
+        <test-case start='1686666006333' status='passed' stop='1686666006334'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 14 Pro'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1686666006334' status='passed' stop='1686666016340'>
+            <name>* wait 3 second</name>
+            <title>* wait 3 second</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 14 Pro'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1686666016340' status='broken' stop='1686666016341'>
+            <name>* I launch the app</name>
+            <title>* I launch the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 14 Pro'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I launch the app" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I launch the app" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/mesut.gulten/Desktop/qcharge_mobile_v1-master 3/test/features/ios.feature):1:1
+                	at Scenario(Onboarding - Swipe Action and Üye Olmadan Kesfet Function):4:3
+                	at Step(I launch the app):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1686666016342' status='passed' stop='1686666016343'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='iPhone 14 Pro'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
